@@ -1,0 +1,1 @@
+This directory is to apply what i will learn
