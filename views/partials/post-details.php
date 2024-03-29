@@ -1,3 +1,10 @@
+<?php 
+    require_once 'Database.php';
+    $config = require('config.php');
+    $db = new Database($config['database']);
+
+?>
+
 <div class="col-xl-6 col-lg-6 col-md-12">
 
     <div class="forum-post gray-border">
