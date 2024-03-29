@@ -1,7 +1,7 @@
 <?php 
     require "functions.php";
     require 'router.php';
-    require 'Database.php';
+    require_once 'Database.php';
 
     $config = require('config.php');
 
@@ -9,7 +9,6 @@
 
     $posts = $db -> query("select * from posts ")->fetchAll(PDO::FETCH_ASSOC);
         
-    
     foreach ($posts as $post) {
         echo "<li>" . $post["title"] . "</li>";
     }

@@ -15,8 +15,6 @@
 
                     <ul class="post-categories">
                         <li class="category"><a href="">#category</a></li>
-                        <li class="category"><a href="">#category</a></li>
-                        <li class="category"><a href="">#category</a></li>
                     </ul>
 
                     <div class="reactions-container">
